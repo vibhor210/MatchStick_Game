@@ -69,7 +69,7 @@ body {
 @media screen and (max-width: 800px) {
   .body {
     width: 100vw;
-    min-height: 700px;
+    min-height: 110vh;
   }
   .content {
     width: 90vw;
@@ -86,7 +86,7 @@ body {
   }
   .box {
     width: 80vw;
-    height: 32vh;
+    height: 35vh;
   }
   #right {
     padding: 1rem;

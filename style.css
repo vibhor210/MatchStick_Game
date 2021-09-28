@@ -67,10 +67,6 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .body {
-    width: 100vw;
-    min-height: 110vh;
-  }
   .content {
     width: 90vw;
     height: 90vh;
@@ -86,11 +82,15 @@ body {
   }
   .box {
     width: 80vw;
-    height: 35vh;
+    height: 32vh;
   }
   #right {
     padding: 1rem;
   }
+  #right p {
+    display: none;
+  }
+
   #left img {
     width: 42px;
     height: 34px;

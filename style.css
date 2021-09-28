@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   background: grey;
-  overflow: hidden;
 }
 .content h1 {
   color: green;
@@ -68,6 +67,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .body {
+    width: 100vw;
+    min-height: 700px;
+  }
   .content {
     width: 90vw;
     height: 90vh;
